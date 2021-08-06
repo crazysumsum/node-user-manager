@@ -1,0 +1,25 @@
+{
+  "name": "user-manager",
+  "version": "1.0.0",
+  "description": "A simple node user management module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/crazysumsum/node-user-manager.git"
+  },
+  "author": "Sam Wong",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/crazysumsum/node-user-manager/issues"
+  },
+  "homepage": "https://github.com/crazysumsum/node-user-manager#readme",
+  "dependencies": {
+    "crypto-js": "^4.1.1",
+    "moment": "^2.29.1",
+    "mysql": "^2.18.1",
+    "uuid": "^8.3.2"
+  }
+}
